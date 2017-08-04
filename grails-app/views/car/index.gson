@@ -1,0 +1,7 @@
+import demo.Car
+
+model {
+	Iterable<Car> carList
+}
+
+json tmpl.car(carList ?: [])

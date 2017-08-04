@@ -1,0 +1,10 @@
+import demo.Car
+
+model {
+    Car car
+}
+
+json {
+    manufacturer car.make
+    series car.model
+}

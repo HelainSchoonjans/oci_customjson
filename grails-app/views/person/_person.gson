@@ -1,0 +1,10 @@
+import demo.Person
+
+model {
+    Person person
+}
+
+json {
+    surname person.lastName
+    givenName person.firstName
+}
